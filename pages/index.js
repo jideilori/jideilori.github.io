@@ -45,9 +45,10 @@ export default function Home() {
           {/* <Booking /> */}
           {/* <Testify /> */}
           {/* <Feedback /> */}
+          <span class="hidden border-gray-400 -bottom-full bottom-0"></span>
         </div>					
       </main>      
-      <Footer />      
+      <Footer />
     </div>
   )
 }
