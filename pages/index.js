@@ -37,7 +37,7 @@ export default function Home() {
       <main>
         <Header />
         <Navbar />
-        <div className="w-full xl:w-4/5 px-4 lg:px-16 xl:px-32 md:py-12">          
+        <div className="w-full xl:w-4/5 px-4 lg:px-16 xl:px-32 md:py-12 overflow-x-hidden">          
           <About />
           <Proficiency />
           <Projects />
