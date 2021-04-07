@@ -80,14 +80,14 @@ export default function Projects() {
                         </div>
 
                         <div data-aos="fade-in" data-aos-duration="900" className="project relative overflow-hidden h-64 bg-400">
-                            <img src="images/projects/recent/brand-amigo.png" className="" alt="Career Strive" />
+                            <img src="images/projects/recent/career-strive.png" className="" alt="Career Strive" />
                             <div className="description transition-all duration-700 absolute -bottom-full left-0 px-8 flex flex-col justify-center items-center w-full h-full bg-black bg-opacity-75">
                                 <div className="relative mx-auto text-center">
                                     <h1 className="text-center text-xl text-white">
                                         <strong>Career Strive</strong>
                                     </h1>
                                     <p className="text-center text-white">A computer based testing and selection system for employment.</p>
-                                    <a href="https://brandamigo.wordpress.com" className="inline-block mt-4 border-4 text-white rounded-full px-4 py-2">See Project</a>
+                                    {/* <a href="https://brandamigo.wordpress.com" className="inline-block mt-4 border-4 text-white rounded-full px-4 py-2">See Project</a> */}
                                 </div>
                             </div>
                         </div>
