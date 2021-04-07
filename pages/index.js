@@ -31,7 +31,7 @@ export default function Home() {
     <div>
       <Head>
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1" />
-        <title> Portfolio | Aston Gemmy </title>
+        <title> Portfolio | Uwakmfon Akpan </title>
       </Head>
 
       <main>

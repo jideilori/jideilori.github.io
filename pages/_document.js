@@ -21,8 +21,8 @@ export default class MyDocument extends Document {
                     <meta httpEquiv="content-type" content="text/html; charset=UTF-8" />
                     <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
                     <meta name="description" content="Aston Gemmy Portfolio" />
-                    <meta property="og:description" name="description" content="Aston Gemmy Portfolio" />
-                    <meta property="og:author" name="author" content="Aston Gemmy" />
+                    <meta property="og:description" name="description" content="Uwakmfon Akpan Portfolio" />
+                    <meta property="og:author" name="author" content="Uwakmfon Akpan" />
                     <meta property="og:keywords" name="keywords" content="Web development,HTML,HTML5,CSS,CSS3,Javascript,JQuery,PHP,MySQL,UX/UI Design,Blogging,Graphics Design,Frontend,Backend" />
                     <meta property="og:image" name="image" content="/images/thumbnails/thumbnail.png" />
                     {/* <link rel="manifest" href="/manifest.json" /> */}
