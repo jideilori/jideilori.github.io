@@ -1,0 +1,35 @@
+name: Build and Deploy to gh-pages Branch
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build And Deploy From Main Branch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Setup Node Environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      
+      - name: Install NPM Packages And Build Project
+        run: |
+          npm install
+          npm run build
+
+      - name: Push Built Directory To gh-pages Branch
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: gh-pages
+          FOLDER: dist
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MESSAGE: "Build: ({sha}) {msg}"
+          
+      - uses: actions/checkout@v2
+        with:
+          ref: gh-pages
