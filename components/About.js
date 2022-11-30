@@ -14,10 +14,10 @@ export default function About() {
 			<div className="w-full md:w-3/5 lg:w-4/5 p-4 md:p-8">
 				<h1 className="text-4xl text-black mb-4">About</h1>
 				<div data-aos="" className="">
-					Aston Gemmy is an astute web developer who has been creating amazing web presence
+					I am an astute web developer who has been creating amazing web presence
 					for numerous brands over the years.
 					<br />
-					As a professional in his field, he takes out time to discuss in details with clients
+					As a professional in this field, I takes out time to discuss in details with clients
 					about their project in order to create interactive websites with high friendly user
 					experience that is very easy to navigate.
 				</div>
