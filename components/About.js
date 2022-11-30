@@ -24,7 +24,7 @@ export default function About() {
 			</div>
 
 			<div className="w-full md:w-2/5 lg:w-1/5 p-4 md:pt-8 text-center">
-				<h2 className="">Meet Aston on Social Media</h2>
+				<h2 className="">Meet Uwakmfon Akpan on Social Media</h2>
 				<Socials socialMedia={socialLink} />
 			</div>
 
