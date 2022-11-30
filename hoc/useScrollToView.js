@@ -1,19 +1,20 @@
 //Scrolls to selected element when corresponding tag is clicked
-export default function useScrollToView() {
-    const scrollToView = (selectors) => {
-        selectors.forEach(selector => {
-            selector.addEventListener('click', function(e) {
-                const target_section = this.getAttribute('href');
-                const target_element = document.querySelector(target_section)
-                const scroll_position = target_element.offsetTop;
-
-                document.documentElement.scrollTo({
-                    top: scroll_position - 60,
-                    behavior: 'smooth'
-                });
-                e.preventDefault();
-            })
-        })
-    }
-    return { scrollToView }
+export default function useScrollToView({ parentContainerRef }) {
+	const scrollToView = () => {
+		const targets = parentContainerRef.current.childNodes
+		targets.forEach(target => {
+			target.addEventListener('click', function (e) {
+				const targetSection = this.dataset.target
+				const targetElement = document.querySelector(`#${targetSection}`)
+				if (!targetElement) return
+				const scrollPosition = targetElement.offsetTop;
+				document.documentElement.scrollTo({
+					top: scrollPosition - 60,
+					behavior: 'smooth'
+				})
+				e.preventDefault();
+			})
+		})
+	}
+	return { scrollToView }
 }

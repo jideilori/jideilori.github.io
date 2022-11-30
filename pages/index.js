@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 import useIntersectionObserver from '../hoc/useIntersectionObserver'
 import useProjectPreviewToggler from '../hoc/useProjectPreviewToggler'
@@ -16,14 +16,16 @@ import Projects from '../components/Projects';
 // import Booking from '../components/Booking';
 
 export default function Home() {
+  const pageSectionParentRef = useRef(null)
   const { toggleProjectOverview } = useProjectPreviewToggler()
 
   useEffect(() => {
     const projects = document.querySelectorAll('.project')
     const projects_description = document.querySelectorAll('.project .description')
-    const portfolio_sections = document.querySelectorAll('.portfolio-section');
-
-    useIntersectionObserver(portfolio_sections)
+    
+    useIntersectionObserver({
+      parentContainerRef: pageSectionParentRef
+    })
     toggleProjectOverview(projects, projects_description)
   })
 
@@ -37,7 +39,7 @@ export default function Home() {
       <main>
         <Header />
         <Navbar />
-        <div className="w-full xl:w-4/5 px-4 lg:px-16 xl:px-32 md:py-12 overflow-x-hidden">          
+        <div ref={pageSectionParentRef} className="w-full xl:w-5/5 px-4 lg:px-16 xl:px-32 md:pb-12">
           <About />
           <Proficiency />
           <Projects />
@@ -45,7 +47,7 @@ export default function Home() {
           {/* <Booking /> */}
           {/* <Testify /> */}
           {/* <Feedback /> */}
-          <span class="hidden border-gray-400 -bottom-full bottom-0"></span>
+          <span className="hidden border-gray-400 -bottom-full bottom-0"></span>
         </div>					
       </main>      
       <Footer />
