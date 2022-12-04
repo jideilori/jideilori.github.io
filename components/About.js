@@ -15,7 +15,10 @@ export default function About() {
 				<h1 className="text-4xl text-black mb-4">About</h1>
 				<div data-aos="" className="">
 					With so much learning, practice, and discoveries in the tech world over the years, I have vested myself with sound and impeccable intellect covering several web development technologies and infrastructures.
-					I am an astute web developer who has been creating an amazing web presence for brands over the years. As a professional in this field, I have worked with many brands such as Designkago, Housezzy Studio, as well as individuals to transform their dreams and visions into reality. I take out time to discuss in detail with clients about their projects in order to create interactive websites with a friendly user experience that is very easy to navigate and use, while at the same time growing their business ultimately.
+					<br/>
+					I am an astute web developer who has been creating an amazing web presence for brands over the years.
+					<br/>
+					As a professional in this field, I have worked with many brands such as Designkago, Housezzy Studio, as well as individuals to transform their dreams and visions into reality. I take out time to discuss in detail with clients about their projects in order to create interactive websites with a friendly user experience that is very easy to navigate and use, while at the same time growing their business ultimately.
 				</div>
 			</div>
 
