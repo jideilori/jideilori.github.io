@@ -39,11 +39,11 @@ export default function Home() {
       <main>
         <Header />
         <Navbar />
-        <div ref={pageSectionParentRef} className="w-full xl:w-5/5 px-4 lg:px-16 xl:px-32 md:pb-12">
+        <div ref={pageSectionParentRef} className="w-full xl:w-5/5 px-4 lg:px-16 xl:px-32 md:pb-12 overflow-hidden">
           <About />
           <Proficiency />
           <Projects />
-          <Clients />          
+          <Clients />     
           {/* <Booking /> */}
           {/* <Testify /> */}
           {/* <Feedback /> */}

@@ -31,6 +31,11 @@ export default function Socials({ socialMedia }) {
 					<i className="fab fa-instagram"></i>
 				</a>
 			)}
+			{socialMedia.fiverr && (
+				<a href={`https://www.fiverr.com/${socialMedia.fiverr}`} className="flex justify-center items-center shadow w-8 h-8 text-white text-xl ml-2 bg-green-500 rounded-full">
+					<i className="fa fa-link"></i>
+				</a>
+			)}
 		</div>
 	)
 }

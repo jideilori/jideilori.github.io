@@ -11,6 +11,8 @@ const portfolio = {
         {
           id: 'javascript',
           name: 'Javascript',
+          imageSrc: 'images/projects/ability-design.png',
+          imageAlt: 'Featured CSS image',
           items: [
             {
               name: 'ReactJs',
@@ -51,6 +53,8 @@ const portfolio = {
         {
           id: 'css',
           name: 'CSS',
+          imageSrc: 'images/projects/housezzy.png',
+          imageAlt: 'Featured CSS image',
           items: [
             {
               name: 'TailwindCss',
@@ -251,7 +255,7 @@ export default function StackByCategory({ toggleStackCloud }) {
 
                 {/* Links */}
                 <Tab.Group as="div" className="mt-2">
-                  <div className="border-b border-gray-200">
+                  <div className="border-b border-gray-200 sticky bg-white top-0">
                     <Tab.List className="-mb-px flex space-x-8 px-4">
                       {portfolio.stacks.map((language) => (
                         <Tab
@@ -271,7 +275,7 @@ export default function StackByCategory({ toggleStackCloud }) {
                   <Tab.Panels as={Fragment}>
                     {portfolio.stacks.map((stack) => (
                       <Tab.Panel key={stack.name} className="space-y-10 px-4 pt-10 pb-8">
-                        <FeaturedStackPortfolioMobile portfolio={stack.languages} />
+                        {stack.id === 'frontend' && <FeaturedStackPortfolioMobile portfolio={stack.languages} />}
                         {stack.languages.map((language) => (<ItemsMobile key={language.id} parent={stack} item={language} />))}
                       </Tab.Panel>
                     ))}
@@ -291,7 +295,10 @@ export default function StackByCategory({ toggleStackCloud }) {
         <nav aria-label="Top" className="hidden lg:block mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="border-b border-gray-200">
             <div className="flex h-12 items-center">
-              <Logo name={'Akpan Uwakmfon'} url={'https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'} />
+              <span className="flex items-center justify-center bg-blue-600 rounded-full w-8 h-8">
+                <i className="fa fa-code text-white"></i>
+              </span>
+              {/* <Logo name={'Akpan Uwakmfon'} url={'images/icons/software-dev-icon.jpeg'} /> */}
 
               {/* Flyout menus */}
               <Popover.Group className="hidden lg:ml-8 lg:block lg:self-stretch">
@@ -317,8 +324,8 @@ export default function StackByCategory({ toggleStackCloud }) {
 
                               <div className="relative bg-white">
                                 <div className="mx-auto max-w-7xl px-8">
-                                  <div className="grid grid-cols-2 gap-y-10 gap-x-8 py-8">
-                                    <FeaturedStackPortfolioDesktop portfolio={stack.languages} />
+                                  <div className={`grid ${ stack.id === 'frontend' ? 'grid-cols-2' : 'grid-cols-1'} gap-y-10 gap-x-8 py-8`}>
+                                    {stack.id === 'frontend' && <FeaturedStackPortfolioDesktop portfolio={stack.languages} />}
                                     <ItemsDesktop items={stack.languages} />
                                   </div>
                                 </div>
@@ -515,13 +522,13 @@ const FeaturedStackPortfolioDesktop = ({ portfolio }) => (
   <div className="col-start-2 grid grid-cols-2 gap-x-8">
     {portfolio.map((item) => (
       <div key={item.name} className="group relative text-base sm:text-sm">
-        {/* <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
+        <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75 shadow">
           <img
             src={item.imageSrc}
             alt={item.imageAlt}
             className="object-cover object-center"
           />
-        </div> */}
+        </div>
         <a href={item.href} className="mt-6 block font-medium text-gray-900">
           <span className="absolute inset-0 z-10" aria-hidden="true" />
           {item.name}
@@ -606,9 +613,9 @@ const FeaturedStackPortfolioMobile = ({ portfolio }) => (
   <div className="grid grid-cols-2 gap-x-4">
     {portfolio.map((item) => (
       <div key={item.name} className="group relative text-sm">
-        {/* <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
+        <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75 shadow">
           <img src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center" />
-        </div> */}
+        </div>
         <a href={item.href} className="mt-6 block font-medium text-gray-900">
           <span className="absolute inset-0 z-10" aria-hidden="true" />
           {item.name}

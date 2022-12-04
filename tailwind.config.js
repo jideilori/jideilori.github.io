@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './utility/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -11,6 +11,10 @@ module.exports = {
       },
       textColor: {
         'text-theme': '#5F6369',
+        'text-housezzy': '#c14822'
+      },
+      backgroundColor: {
+        'bg-housezzy': '#c14822'
       },
       height: {
         '112': '26rem',

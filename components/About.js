@@ -1,14 +1,7 @@
-import Socials from "./Socials"
+import featuredDevs from "../utility/featured-devs"
+import FeaturedDevCard from "./FeaturedDevCard"
 
 export default function About() {
-	const socialLink = {
-		facebook: 'astongemmy',
-		email: 'astongemmy@gmail.com',
-		github: 'astongemmy',
-		twitter: 'astongemmy',
-		linkedin: 'astongemmy'
-	}
-
 	return (
 		<div id="about" data-aos="fade-up" className="portfolio-section flex flex-col md:flex-row relative mt-8">
 			<div className="w-full md:w-3/5 lg:w-4/5 p-4 md:p-8">
@@ -22,12 +15,7 @@ export default function About() {
 				</div>
 			</div>
 
-			<div className="w-full md:w-2/5 lg:w-1/5 p-4 md:pt-8 text-center">
-				<h2 className="">Meet Uwakmfon Akpan on Social Media</h2>
-				<Socials socialMedia={socialLink} />
-			</div>
-
+			<FeaturedDevCard {...featuredDevs.uwakmfonAkpan} />
 		</div>
-
 	)
 }
