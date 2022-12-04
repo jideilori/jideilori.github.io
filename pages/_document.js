@@ -22,7 +22,7 @@ export default class MyDocument extends Document {
 					<meta property="og:keywords" name="keywords" content="Web development,HTML,HTML5,CSS,CSS3,Javascript,JQuery,PHP,UX/UI Design,Blogging,Graphics Design,Frontend,Backend,NodeJs,ReactJs,VueJs,MongoDB,Python,MySQL,PostgresSQL,Docker,Kubernetes,AWS,Git,Laravel" />
 					<meta property="og:image" name="image" content="/images/thumbnails/thumbnail.png" />
 
-					<link rel="shortcut icon" href="/images/favicon/favicon.png" />
+					<link rel="shortcut icon" href="/images/favicon/favicon.jpeg" />
 					{/* <script data-ad-client="ca-pub-3849094578303904" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> */}
 
 					{/* Global site tag (gtag.js) - Google Analytics */}
