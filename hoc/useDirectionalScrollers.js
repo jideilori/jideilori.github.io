@@ -1,17 +1,19 @@
-export default function useDirectionalScrollers({ parentContainerRef }) {
+const useDirectionalScrollers = ({ targetRef, step = 200 }) => {
 	const scrollLeft = () => {
-		const target = parentContainerRef.current
+		const target = targetRef.current
 		target.scrollBy({
-			left: -200,
+			left: -step,
 			behavior: 'smooth'
 		})
 	}
 	const scrollRight = () => {
-		const target = parentContainerRef.current
+		const target = targetRef.current
 		target.scrollBy({
-			left: 200,
+			left: step,
 			behavior: 'smooth'
 		})
 	}
 	return { scrollLeft, scrollRight }
 }
+
+export default useDirectionalScrollers;

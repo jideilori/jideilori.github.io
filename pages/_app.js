@@ -6,13 +6,14 @@ import '../public/styles/app.css'
 import '../public/styles/icons.css'
 import '../public/styles/aos.css'
 
-function MyApp({ Component, pageProps }) {
-  useEffect(() =>{
+const MyApp = ({ Component, pageProps }) => {
+  useEffect(() => {
     AOS.init({
       easing: 'ease-in-out-sine'
     })
   }, [])
+
   return <Component {...pageProps} />
 }
 
-export default MyApp
+export default MyApp;

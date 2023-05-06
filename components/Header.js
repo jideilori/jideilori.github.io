@@ -2,7 +2,7 @@ import Intro from "./Intro";
 import ProfileName from "./ProfileName";
 import Avatar from "./Avatar";
 
-export default function Header() {
+const Header = () => {
 	return (
 		<div className="relative bg-main bg-no-repeat bg-cover bg-top w-full min-h-320">
 			<div className="bg-gradient-to-b from-blue-900 to-transparent p-2 md:py-16 md:px-8 lg:px-32">
@@ -17,3 +17,5 @@ export default function Header() {
 		</div>
 	)
 }
+
+export default Header;

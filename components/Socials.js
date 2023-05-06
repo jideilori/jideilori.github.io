@@ -1,4 +1,4 @@
-export default function Socials({ socialMedia }) {
+const Socials = ({ socialMedia }) => {
 	return (
 		<div data-aos="fade-left" className="flex flex-wrap justify-center gap-2 px-4 py-4 md:px-0">
 			{socialMedia.facebook && (
@@ -39,3 +39,5 @@ export default function Socials({ socialMedia }) {
 		</div>
 	)
 }
+
+export default Socials;

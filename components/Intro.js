@@ -3,7 +3,7 @@ import StackCloud from "./StackCloud";
 import StackByCategory from "./StackByCategory";
 import TagLine from "./TagLine";
 
-export default function Intro() {
+const Intro = () => {
 	const [isStackCloud, setStackCloud] = useState(false)
 
 	return (
@@ -14,3 +14,5 @@ export default function Intro() {
 		</div>
 	)
 }
+
+export default Intro;

@@ -1,11 +1,57 @@
-import Socials from "./Socials"
+import { useState } from "react";
+import useSendMail from "../hoc/useSendMail";
+import featuredDevs from "../utility/featured-devs";
+import FeaturedDevCard from "./FeaturedDevCard";
+import InputField from "./InputField";
 
-export default function Booking() {
-	const socialLink = {
-		email: 'caitybrian808@gmail.com',
-		twitter: 'idbrain',
-		linkedin: 'idongesit-ansa-2a0874149'
+const bookingFields = [
+	{
+		id: 'booking-date',
+		name: 'date',
+		defaultValue: '',
+		type: 'date',
+		placeholder: '',
+		icon: 'far fa-calendar-alt',
+		required: true
+	}, {
+		id: 'booking-name',
+		name: 'name',
+		defaultValue: '',
+		type: 'text',
+		placeholder: 'Your name. Example: John Doe',
+		icon: 'fa fa-user-alt',
+		required: true
+	}, {
+		id: 'booking-email',
+		name: 'email',
+		defaultValue: '',
+		type: 'email',
+		placeholder: 'Your email. Example: johndoe@email.com',
+		icon: 'fa fa-at',
+		required: true
+	}, {
+		id: 'booking-purpose',
+		name: 'purpose',
+		defaultValue: '',
+		type: 'text',
+		placeholder: 'Your purpose. Example: Talk about a project',
+		icon: 'far fa-lightbulb',
+		required: true
 	}
+]
+
+const Booking = () => {
+  const { progress, sendMail } = useSendMail()
+	const [booking, setBooking] = useState({
+		date: '',
+		name: '',
+		email: '',
+		purpose: ''
+	})
+
+	const handleInputChange = (key, value) => {
+    setBooking(prevState => { return { ...prevState, [key]: value } })
+  }
 
 	return (
 		<div id="booking" data-aos="fade-up" className="portfolio-section flex flex-col md:flex-row relative mt-8">
@@ -19,46 +65,20 @@ export default function Booking() {
 				</div>
 
 				<div className="relative my-8">
-					<form method="POST">
+					<form onSubmit={(e) => sendMail(e, '/api/bookings', booking)}>
 						<div className="grid grid-flow-rows grid-cols-1 md:grid-cols-2 gap-8">
-							<div className="relative flex justify-between bg-gray-200 border-2 rounded-lg">
-								<span className="absolute top-0 left-0 flex justify-center items-center w-12 h-full bg-gray-200">
-									<i className="fa fa-calendar-alt"></i>
-								</span>
-								<input type="date" className="outline-none w-full py-2 pl-14 pr-2 rounded-lg" />
-							</div>
-							<div className="relative flex justify-between bg-gray-200 border-2 rounded-lg">
-								<span className="absolute top-0 left-0 flex justify-center items-center w-12 h-full bg-gray-200">
-									<i className="fa fa-user-alt"></i>
-								</span>
-								<input type="text" className="outline-none w-full py-2 pl-14 pr-2 rounded-lg" placeholder="Name" />
-							</div>
-							<div className="relative flex justify-between bg-gray-200 border-2 rounded-lg">
-								<span className="absolute top-0 left-0 flex justify-center items-center w-12 h-full bg-gray-200">
-									<i className="fa fa-envelope"></i>
-								</span>
-								<input type="email" className="outline-none w-full py-2 pl-14 pr-2 rounded-lg" placeholder="@" />
-							</div>
+							{bookingFields.map(field => <InputField key={field.id} getValue={(value) => handleInputChange(field.name, value)} {...field} />)}
 						</div>
-						<button type="submit" className="hover:bg-blue-600 shadow rounded-tl-lg rounded-tr-lg rounded-bl-xl rounded-br-3xl my-8 px-8 py-2 text-white bg-blue-400 transition-all duration-700">
-							Book Appointment
+						<button type="submit" className="hover:bg-blue-600 shadow rounded-tl-lg rounded-tr-lg rounded-bl-xl rounded-br-3xl my-8 px-8 py-2 text-white bg-blue-500 transition-all duration-700">
+							{ progress === 'idle' ? 'Book Appointment' : progress }
 						</button>
 					</form>
 				</div>
 			</div>
 
-			<div className="w-full md:w-2/5 lg:w-1/5 p-4 text-center">
-				<h2 className="inline-block bg-black py-2 px-4 text-white">Researcher & Data Scientist</h2>
-				<div className="relative py-4">
-					<img data-aos="zoom-in-left" src="images/advertisement/services/idongesit-ansa-gravatar.jpg" alt="Idongesit Ansa" className="border-b-4 border-gray-200 p-2 rounded-full w-24 h-24 mx-auto" width="100%" />
-
-					<div className="text-xl mt-2"> Idongesit Ansa </div>
-					<div className="text-center mt-3">
-						Researcher || Machine Learning || Tutor (MATLAB/PYTHON)
-					</div>
-					<Socials socialMedia={socialLink} />
-				</div>
-			</div>
+			<FeaturedDevCard {...featuredDevs.idongesitAnsa} />
 		</div>
 	)
 }
+
+export default Booking;

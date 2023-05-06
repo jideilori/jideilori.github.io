@@ -3,7 +3,7 @@ import portfolioData from "../utility/portfolio-data";
 import FeaturedDevCard from "./FeaturedDevCard";
 
 
-export default function Clients() {
+const Clients = () => {
 	return (
 		<div id="clients" data-aos="fade-up" className="portfolio-section flex flex-col md:flex-row relative mt-8">
 			<div className="w-full md:w-3/5 lg:w-4/5 p-4 md:p-8">
@@ -32,3 +32,5 @@ export default function Clients() {
 		</div>
 	)
 }
+
+export default Clients;
