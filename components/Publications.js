@@ -18,7 +18,7 @@ const Publications = () => {
 				</div>
 			</div>
 
-			<FeaturedDevCard {...featuredDevs.bannyAnderson} />
+			{/* <FeaturedDevCard {...featuredDevs.bannyAnderson} /> */}
 		</div>
 
 	)

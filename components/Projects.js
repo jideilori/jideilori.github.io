@@ -11,14 +11,14 @@ const Projects = () => {
 				<h1 className="text-4xl text-black mb-4">Projects</h1>
 				<div className="">
 					<p className="mb-8">
-						Here are some of my projects involving computer vision that makes use of both classical image processing techniques and modern day deep learning approaches.
+						Here are some of my projects involving computer vision that makes use of both classical image processing 
+						techniques and modern day deep learning approaches. 
 					</p>
 					
 					<ProjectSection projects={portfolioData.projects} />
 				</div>
 			</div>
 
-			<FeaturedDevCard {...featuredDevs.bannyAnderson} />
 		</div>
 
 	)

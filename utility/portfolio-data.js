@@ -12,7 +12,7 @@ const portfolioData = {
             imageAlt: 'Featured Python image',
             items: [
               {
-                name: 'Django',
+                name: 'scikit-learn',
                 href: '#',
                 color: '',
                 items: [
@@ -89,7 +89,7 @@ const portfolioData = {
   projects: [
     {
       id: 'featured-projects',
-      title: 'Featured Projects',
+      // title: 'Featured Projects',
       items: [
         {
           id: 'aerial-segmentation',

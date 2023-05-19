@@ -18,7 +18,7 @@ const ProjectCard = ({ name, description, image, url }) => {
           </p>
           {url && (
             <a href={url} className="inline-block mt-4 border-4 text-white rounded-full px-4 py-2">
-              View Live
+              View
             </a>
           )}
         </div>

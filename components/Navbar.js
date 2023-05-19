@@ -14,20 +14,13 @@ const Navbar = () => {
 	const navbarLinks = [
 		{text: 'Bio', href: 'about', scrollable: true},
 		{text: 'Experience', href: 'experience', scrollable: true},
-		{text: 'Portfolio', href: 'portfolio', scrollable: true},
+		{text: 'Projects', href: 'projects', scrollable: true},
+		// {text: 'Projects', href: 'portfolio', scrollable: true},
+
 		{text: 'Publications', href: 'publications', scrollable: true},
 		{text: 'Academic CV', href: '/cv/oluwaseun-ilori-cv.pdf', scrollable: false},
 		// {text: 'Resume', href: 'resume', scrollable: true},
 
-		// {text: 'Proficiency', href: 'proficiency'},
-		// {text: 'Projects', href: 'projects'},
-		// {text: 'Testimonials', href: 'testimonials'},
-		// {text: 'Partners', href: 'partners'},
-		// {text: 'Clients', href: 'clients' },
-		// {text: 'Booking', href: 'booking'},
-		// {text: 'Testify', href: 'testify'},
-		// {text: 'Consultation', href: 'consultation'},
-		// {text: 'Feedback', href: 'feedback'}
 	]
 
 	return (
