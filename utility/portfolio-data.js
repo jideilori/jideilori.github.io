@@ -1,90 +1,81 @@
 const portfolioData = {
   portfolio: {
-    stacks: [
-      {
-        id: 'data_scientist',
-        name: 'Data Scientist',
-        languages: [
-          {
-            id: 'python',
-            name: 'Python',
-            imageSrc: 'images/projects/ability-design.png',
-            imageAlt: 'Featured Python image',
-            items: [
-              {
-                name: 'scikit-learn',
-                href: '#',
-                color: '',
-                items: [
-                  {
-                    name: 'Django sub tool one',
-                    href: '#',
-                    color: ''
-                  },
-                  {
-                    name: 'Django sub tool two',
-                    href: '#',
-                    color: ''
-                  }    
-                ]
-              },
-            ]
-          },
-          {
-            id: 'matlab',
-            name: 'Matlab',
-            imageSrc: 'images/projects/housezzy.png',
-            imageAlt: 'Featured Matlab image',
-            items: [
-              {
-                name: 'Matlab sub tool one',
-                href: '#',
-                color: ''
-              },
-              {
-                name: 'Matlab sub tool two',
-                href: '#',
-                color: ''
-              }
-            ]
-          }    
-        ]
-      },
-      {
-        id: 'computer_vision',
-        name: 'Computer Vision',
-        languages: [
-          {
-            id: 'pytorch',
-            name: 'Pytorch',
-            items: [
-              {
-                name: 'Tensorflow',
-                href: '#',
-                color: '',
-                items: [
-                  {
-                    name: 'Tensorflow sub tool one',
-                    href: '#',
-                    color: ''
-                  },
-                  {
-                    name: 'Tensorflow sub tool two',
-                    href: '#',
-                    color: ''
-                  },
-                  {
-                    name: 'Tensorflow sub tool three',
-                    href: '#',
-                    color: ''
-                  }    
-                ]
-              }
-            ]
-          },
-        ]
-      }
-    ]
+    stacks: []
+    //   {
+    //     id: 'data_scientist',
+    //     name: 'Data Scientist',
+    //     languages: [
+    //       {
+    //         id: 'python',
+    //         name: 'Python',
+    //         imageSrc: 'images/projects/ability-design.png',
+    //         imageAlt: 'Featured Python image',
+    //         items: [
+    //           {
+    //             name: 'scikit-learn',
+                
+    //           },
+    //           {
+    //             name: 'scikit-learn',
+                
+    //           },
+    //         ]
+    //       },
+          // {
+          //   id: 'matlab',
+          //   name: 'Matlab',
+          //   imageSrc: 'images/projects/housezzy.png',
+          //   imageAlt: 'Featured Matlab image',
+          //   // items: [
+          //   //   {
+          //   //     name: 'Matlab sub tool one',
+          //   //     href: '#',
+          //   //     color: ''
+          //   //   },
+          //   //   {
+          //   //     name: 'Matlab sub tool two',
+          //   //     href: '#',
+          //   //     color: ''
+          //   //   }
+          //   // ]
+          // }    
+        // ]
+      // },
+      // {
+      //   id: 'computer_vision',
+      //   name: 'Computer Vision',
+      //   languages: [
+      //     {
+      //       id: 'pytorch',
+      //       name: 'Pytorch',
+      //       items: [
+      //         {
+      //           name: 'Tensorflow',
+      //           href: '#',
+      //           color: '',
+      //           items: [
+      //             {
+      //               name: 'Tensorflow sub tool one',
+      //               href: '#',
+      //               color: ''
+      //             },
+      //             {
+      //               name: 'Tensorflow sub tool two',
+      //               href: '#',
+      //               color: ''
+      //             },
+      //             {
+      //               name: 'Tensorflow sub tool three',
+      //               href: '#',
+      //               color: ''
+      //             }    
+      //           ]
+      //         }
+      //       ]
+      //     },
+      //   ]
+      // }
+    // ]
   },
   projects: [
     {

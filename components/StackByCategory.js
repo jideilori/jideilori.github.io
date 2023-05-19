@@ -153,7 +153,7 @@ const StackByCategory = ({ toggleStackCloud }) => {
 const StackCloudNavbar = ({ isStackCloud, toggleStackCloud, openStackCategory }) => (
   <p className="flex h-10 items-center justify-between text-sm font-medium text-white">
     <span className="font-bold bg-blue-600 hidden lg:flex flex-1 items-center h-full pl-4 sm:pl-6 lg:pl-8">
-      View stacks by category
+      {/* View stacks by category */}
     </span>
     {/* Stack category menu button - Mobile */}
     <button
@@ -161,10 +161,10 @@ const StackCloudNavbar = ({ isStackCloud, toggleStackCloud, openStackCategory })
       className="font-bold bg-blue-600 lg:hidden flex-1 h-full focus:outline-none text-white text-left px-4 sm:pl-6 lg:pl-8"
       onClick={openStackCategory}
     >
-      View stacks by category
+      {/* View stacks by category */}
     </button>
     {/* Stack cloud menu button */}
-    <button onClick={toggleStackCloud} className="px-4 bg-blue-700 h-full font-bold outline-none focus:outline-none border-none text-white">
+    <button onClick={toggleStackCloud} className="px-4 bg-blue-800 h-full font-bold outline-none focus:outline-none border-none text-white">
       { isStackCloud ? 'Collapse' : 'View' } stack cloud
     </button>
   </p>

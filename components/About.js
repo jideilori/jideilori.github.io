@@ -7,9 +7,9 @@ const About = () => {
 			<div className="w-full md:w-3/5 lg:w-4/5 p-4 md:p-8">
 				<h1 className="text-4xl text-black mb-4">About</h1>
 				<div data-aos="" className="">
-					With so much learning, projects, and discoveries in the tech world over the years, I have vested myself with sound and impeccable intellect covering several Ai technologies technologies and infrastructures.
+					With so much learning and AI related projects over the years, I have acquired sound and impeccable knowledge covering several Ai technologies.
 					<br/>
-					<br/>
+					{/* <br/> */}
 				</div>
 			</div>
 
