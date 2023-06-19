@@ -100,6 +100,12 @@ const portfolioData = {
           url: 'https://github.com/jideilori/ocr-ml',
           image: 'images/projects/ocr_ml.webp',
           description: 'An OCR for license plate using HOG and Logistic regression. Developed the complete pipeline from getting images, preprocessing to training the object detector and ocr.'
+        }, {
+          id: 'face-recognition',
+          name: 'Face-recognition',
+          url: 'https://github.com/jideilori/face-recognition',
+          image: 'images/projects/result.gif',
+          description: 'Real time face recognition with multiple object tracking'
         }
       ]
     }
