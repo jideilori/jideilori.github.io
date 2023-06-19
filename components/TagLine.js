@@ -5,7 +5,7 @@ const TagLine = () => {
 				{/* <a className="flex justify-center items-center w-8 h-8 text-white text-xl md:mr-4 bg-blue-500 rounded-full" href="Https://facebook.com/astongemmy">
 					<i className="fab fa-facebook-f"></i>
 				</a> */}
-				<a className="flex justify-center items-center w-8 h-8 text-white text-xl md:mr-4 bg-red-400 rounded-full" href="mailto:astongemmy@gmail.com">
+				<a className="flex justify-center items-center w-8 h-8 text-white text-xl md:mr-4 bg-red-400 rounded-full" href="mailto:jideilori77@gmail.com">
 					<i className="fa fa-at"></i>
 				</a>
 				<a className="flex justify-center items-center w-8 h-8 text-black text-xl md:mr-4 bg-white rounded-full" href="https://github.com/jideilori/">
@@ -22,7 +22,7 @@ const TagLine = () => {
 				</a>
 			</div>
 			<div data-aos="slide-up" className="mt-2 md:text-2xl mb-6">
-				Data Scientist | Computer Vision | Critical Thinker
+				Machine learning | Computer Vision Engineer | Critical Thinker
 			</div>
 		</div>
 	)
