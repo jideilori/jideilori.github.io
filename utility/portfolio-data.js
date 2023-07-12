@@ -106,6 +106,12 @@ const portfolioData = {
           url: 'https://github.com/jideilori/face-recognition',
           image: 'images/projects/result.gif',
           description: 'Real time face recognition with multiple object tracking'
+        },{
+          id: 'monocular-depth',
+          name: 'Monocular Depth Estimation',
+          url: 'https://github.com/jideilori/resnet_depthnet',
+          image: 'https://github.com/jideilori/resnet_depthnet/office_result.png',
+          description: 'Monocular deoth estimation using resent-18 unet.'
         }
       ]
     }
