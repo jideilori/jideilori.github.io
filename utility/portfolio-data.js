@@ -110,7 +110,7 @@ const portfolioData = {
           id: 'monocular-depth',
           name: 'Monocular Depth Estimation',
           url: 'https://github.com/jideilori/resnet_depthnet',
-          image: 'images/office_result.png',
+          image: 'images/projects/office_result.png',
           description: 'Monocular depth estimation using resent-18 unet.'
         }
       ]
