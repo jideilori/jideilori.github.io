@@ -8,8 +8,8 @@ const { portfolio } = portfolioData
 const classNames = (...classes) => classes.filter(Boolean).join(' ')
 
 const StackByCategory = ({ toggleStackCloud }) => {
-  const [open, setOpen] = useState(true)
-  const [isStackCloud, setStackCloud] = useState(false)
+  const [open, setOpen] = useState(false)
+  const [isStackCloud, setStackCloud] = useState(true)
   useEffect(() => {
     toggleStackCloud(isStackCloud)
   }, [isStackCloud])
