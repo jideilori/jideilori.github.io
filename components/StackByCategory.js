@@ -94,10 +94,12 @@ const StackByCategory = ({ toggleStackCloud }) => {
 
         <nav aria-label="Top" className="hidden lg:block mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="border-b border-gray-200">
-            <div className="flex h-12 items-center">
-              <span className="flex items-center justify-center bg-blue-600 rounded-full w-8 h-8">
-                <i className="fa fa-code text-white"></i>
-              </span>
+          <div className="">
+
+            {/* <div className="flex h-12 items-center"> */}
+              {/* <span className="flex items-center justify-center bg-blue-600 rounded-full w-8 h-8"> */}
+                {/* <i className="fa fa-code text-white"></i> */}
+              {/* </span> */}
               {/* <Logo name={'Akpan Uwakmfon'} url={'images/icons/software-dev-icon.jpeg'} /> */}
 
               {/* Flyout menus */}
@@ -122,14 +124,14 @@ const StackByCategory = ({ toggleStackCloud }) => {
                               {/* Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow */}
                               <div className="absolute inset-0 top-1/2 bg-white shadow" aria-hidden="true" />
 
-                              <div className="relative bg-white">
-                                <div className="mx-auto max-w-7xl px-8">
-                                  <div className={`grid ${ stack.id === 'frontend' ? 'grid-cols-2' : 'grid-cols-1'} gap-y-10 gap-x-8 py-8`}>
-                                    {stack.id === 'frontend' && <FeaturedStackPortfolioDesktop portfolio={stack.languages} />}
-                                    <ItemsDesktop items={stack.languages} />
-                                  </div>
-                                </div>
-                              </div>
+                              {/* <div className="relative bg-white"> */}
+                                {/* <div className="mx-auto max-w-7xl px-8"> */}
+                                  {/* <div className={`grid ${ stack.id === 'frontend' ? 'grid-cols-2' : 'grid-cols-1'} gap-y-10 gap-x-8 py-8`}> */}
+                                    {/* {stack.id === 'frontend' && <FeaturedStackPortfolioDesktop portfolio={stack.languages} />} */}
+                                    {/* <ItemsDesktop items={stack.languages} /> */}
+                                  {/* </div> */}
+                                {/* </div> */}
+                              {/* </div> */}
                             </Popover.Panel>
                           </Transition>
                         </>
@@ -151,22 +153,24 @@ const StackByCategory = ({ toggleStackCloud }) => {
 }
 
 const StackCloudNavbar = ({ isStackCloud, toggleStackCloud, openStackCategory }) => (
-  <p className="flex h-10 items-center justify-between text-sm font-medium text-white">
-    <span className="font-bold bg-blue-600 hidden lg:flex flex-1 items-center h-full pl-4 sm:pl-6 lg:pl-8">
+  <p className="">
+
+  {/* // <p className="flex h-10 items-center justify-between text-sm font-medium text-white"> */}
+    {/* <span className="font-bold bg-blue-600 hidden lg:flex flex-1 items-center h-full pl-4 sm:pl-6 lg:pl-8"> */}
       {/* View stacks by category */}
-    </span>
+    {/* </span> */}
     {/* Stack category menu button - Mobile */}
-    <button
+    {/* <button
       type="button"
       className="font-bold bg-blue-600 lg:hidden flex-1 h-full focus:outline-none text-white text-left px-4 sm:pl-6 lg:pl-8"
       onClick={openStackCategory}
-    >
+    > */}
       {/* View stacks by category */}
-    </button>
+    {/* </button> */}
     {/* Stack cloud menu button */}
-    <button onClick={toggleStackCloud} className="px-4 bg-blue-800 h-full font-bold outline-none focus:outline-none border-none text-white">
-      { isStackCloud ? 'Collapse' : 'View' } stack cloud
-    </button>
+    {/* <button onClick={toggleStackCloud} className="px-4 bg-blue-800 h-full font-bold outline-none focus:outline-none border-none text-white"> */}
+      {/* { isStackCloud ? 'Collapse' : 'View' } stack cloud */}
+    {/* </button> */}
   </p>
 )
 
