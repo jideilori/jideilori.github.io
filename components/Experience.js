@@ -7,6 +7,11 @@ const Experience = () => {
 			<div className="w-full md:w-3/5 lg:w-4/5 p-4 md:p-8">
 				<h1 className="text-4xl text-black mb-4">Experience</h1>
 				<div className="">
+					<b className="text-black">TalaNanu </b> 
+					Computer Vision Lead
+					<b> [May 2023 - Present]</b>
+					<br/>
+
 					<b className="text-black">Team Tabono: </b> 
 					MathWorks MiniDrone Competition	Winners of the virtual round EMEA, 2022.  
 					<b> [Jun 22 - Oct 22]</b>
