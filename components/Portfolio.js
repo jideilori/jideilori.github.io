@@ -13,8 +13,8 @@ const Portfolio = () => {
 							Applied machine learning work across disease diagnostics, OCR, depth estimation, and scene understanding.
 						</h2>
 						<p className="muted-copy mt-4 text-base md:text-lg leading-8">
-							These projects reflect the themes in my CV: strong computer vision foundations, end-to-end experimentation,
-							and practical deployment choices for real users and real constraints.
+							These projects bring together computer vision, experimentation, and practical deployment for real-world
+							problems and constraints.
 						</p>
 					</div>
 					<div className="surface-card p-6 lg:max-w-sm">

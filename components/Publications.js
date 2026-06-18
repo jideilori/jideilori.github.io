@@ -13,8 +13,7 @@ const Publications = () => {
 							Research outputs that reflect my interest in trustworthy computer vision and applied AI.
 						</h2>
 						<p className="muted-copy mt-4 text-base md:text-lg leading-8">
-							The publication section now mirrors the academic work on your CV, highlighting malaria detection,
-							explainable AI in healthcare, and embedded surveillance systems.
+							My published work covers malaria detection, explainable AI in healthcare, and embedded surveillance systems.
 						</p>
 					</div>
 					<div className="surface-card p-6 lg:max-w-sm">

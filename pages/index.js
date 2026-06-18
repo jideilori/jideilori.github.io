@@ -11,6 +11,7 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import About from '../components/About';
 import Skills from '../components/Skills';
+import Certifications from '../components/Certifications';
 
 const Home = () => {
   const pageSectionParentRef = useRef(null);
@@ -42,6 +43,7 @@ const Home = () => {
           <Skills />
           <Portfolio />
           <Publications />
+          <Certifications />
           <span className="hidden border-gray-400 -bottom-full bottom-0"></span>
         </div>					
       </main>      

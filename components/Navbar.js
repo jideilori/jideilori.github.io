@@ -19,6 +19,7 @@ const Navbar = () => {
 		// {text: 'Projects', href: 'portfolio', scrollable: true},
 
 		{text: 'Publications', href: 'publications', scrollable: true},
+		{text: 'Certifications', href: 'certifications', scrollable: true},
 		{text: 'CV', href: '/cv/OLUWASEUN_ILORI_RESUME_26.pdf', scrollable: false},
 		// {text: 'Resume', href: 'resume', scrollable: true},
 

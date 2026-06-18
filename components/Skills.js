@@ -28,8 +28,8 @@ const Skills = () => {
 							Tools and technologies I have used across data science, NLP, computer vision, and deployment.
 						</h2>
 						<p className="muted-copy mt-4 text-base md:text-lg leading-8">
-							This section makes the technical stack from your CV visible on the interface so visitors can quickly
-							see both your breadth and your current working toolkit.
+							My work spans analytics, modeling, NLP, computer vision, and deployment, using tools that support both
+							research and production delivery.
 						</p>
 					</div>
 					<div className="surface-card p-6 lg:max-w-sm">
