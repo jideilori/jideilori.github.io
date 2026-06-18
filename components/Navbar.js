@@ -12,22 +12,23 @@ const Navbar = () => {
 	})
 
 	const navbarLinks = [
-		{text: 'Bio', href: 'about', scrollable: true},
+		{text: 'About', href: 'about', scrollable: true},
 		{text: 'Experience', href: 'experience', scrollable: true},
+		{text: 'Skills', href: 'skills', scrollable: true},
 		{text: 'Projects', href: 'projects', scrollable: true},
 		// {text: 'Projects', href: 'portfolio', scrollable: true},
 
 		{text: 'Publications', href: 'publications', scrollable: true},
-		{text: 'Resume', href: '/cv/OLUWASEUN_ILORI_RESUME.pdf', scrollable: false},
+		{text: 'CV', href: '/cv/OLUWASEUN_ILORI_RESUME_26.pdf', scrollable: false},
 		// {text: 'Resume', href: 'resume', scrollable: true},
 
 	]
 
 	return (
-		<div className="sticky top-0 w-full py-3 bg-white z-10 shadow">
+		<div className="sticky top-0 w-full py-3 bg-white bg-opacity-95 z-10 shadow">
 			<div className="relative flex w-full lg:w-11/12 xl:w-11/12 px-0 xl:px-8 items-center mx-auto">
-				{isScrollable && (<div onClick={scrollLeft} className="absolute left-2 lg:left-0 bg-white shadow text-theme rounded-full flex justify-center items-center w-12 h-12"><i className="fa fa-arrow-left"></i></div>)}
-				{isScrollable && (<div onClick={scrollRight} className="absolute right-2 lg:right-0 bg-white shadow text-theme rounded-full flex justify-center items-center w-12 h-12"><i className="fa fa-arrow-right"></i></div>)}
+				{isScrollable && (<div onClick={scrollLeft} className="absolute left-2 lg:left-0 bg-white shadow text-blue-700 rounded-full flex justify-center items-center w-12 h-12"><i className="fa fa-arrow-left"></i></div>)}
+				{isScrollable && (<div onClick={scrollRight} className="absolute right-2 lg:right-0 bg-white shadow text-blue-700 rounded-full flex justify-center items-center w-12 h-12"><i className="fa fa-arrow-right"></i></div>)}
 
 				<div
 					ref={navbarRef}

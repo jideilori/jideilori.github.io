@@ -10,6 +10,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import About from '../components/About';
+import Skills from '../components/Skills';
 
 const Home = () => {
   const pageSectionParentRef = useRef(null);
@@ -35,9 +36,10 @@ const Home = () => {
         
         <Header />
         <Navbar />
-        <div ref={pageSectionParentRef} className="w-full xl:w-5/5 px-4 lg:px-16 xl:px-32 md:pb-12 overflow-hidden">
+        <div ref={pageSectionParentRef} className="w-full max-w-7xl px-4 lg:px-10 xl:px-16 md:pb-12 overflow-hidden">
           <About />
           <Experience />
+          <Skills />
           <Portfolio />
           <Publications />
           <span className="hidden border-gray-400 -bottom-full bottom-0"></span>
