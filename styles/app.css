@@ -8,14 +8,23 @@ html, body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #5F6369;
-    background-color:transparent;
+    background-color: #f4f7fb;
     margin: 0;
     height:100%;
     font-style: normal; font-variant: normal; font-weight: 400; line-height: 25px;
 }
 
 * {box-sizing: border-box;}
-a {text-decoration:none;cursor:pointer;color:#660033;}
+a {
+    text-decoration:none;
+    cursor:pointer;
+    color:#2563eb;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color:#1d4ed8;
+}
 
 main {
     padding: 0rem 0;
@@ -28,6 +37,94 @@ main {
 
 footer {
     width: 100%;
+}
+
+.section-shell {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(209, 219, 233, 0.9);
+    border-radius: 24px;
+    box-shadow: 0 20px 60px rgba(15, 23, 42, 0.06);
+}
+
+.surface-card {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    border: 1px solid #e2e8f0;
+    border-radius: 20px;
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+}
+
+.surface-card-dark {
+    background: linear-gradient(135deg, #0f172a 0%, #172554 100%);
+    border-radius: 24px;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.18);
+}
+
+.section-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: #dbeafe;
+    color: #1d4ed8;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.section-title {
+    color: #0f172a;
+    line-height: 1.1;
+}
+
+.hero-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(191, 219, 254, 0.35);
+    background: rgba(15, 23, 42, 0.58);
+    color: #f8fafc;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.meta-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(191, 219, 254, 0.28);
+    color: #eff6ff;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.hero-stat {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(191, 219, 254, 0.25);
+    border-radius: 18px;
+}
+
+.hero-stat-value {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.muted-copy {
+    color: #5f6369;
+}
+
+.project-card {
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
 }
 
 /* ScrollBar */
