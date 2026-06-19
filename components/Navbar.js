@@ -16,6 +16,7 @@ const Navbar = () => {
 		{text: 'Experience', href: 'experience', scrollable: true},
 		{text: 'Skills', href: 'skills', scrollable: true},
 		{text: 'Projects', href: 'projects', scrollable: true},
+		{text: 'Blog', href: 'blog-posts', scrollable: true},
 		// {text: 'Projects', href: 'portfolio', scrollable: true},
 
 		{text: 'Publications', href: 'publications', scrollable: true},

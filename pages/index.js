@@ -12,6 +12,7 @@ import Navbar from '../components/Navbar';
 import About from '../components/About';
 import Skills from '../components/Skills';
 import Certifications from '../components/Certifications';
+import BlogPosts from '../components/BlogPosts';
 
 const Home = () => {
   const pageSectionParentRef = useRef(null);
@@ -42,6 +43,7 @@ const Home = () => {
           <Experience />
           <Skills />
           <Portfolio />
+          <BlogPosts />
           <Publications />
           <Certifications />
           <span className="hidden border-gray-400 -bottom-full bottom-0"></span>

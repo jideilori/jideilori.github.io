@@ -116,6 +116,35 @@ const portfolioData = {
       ]
     }
   ],
+  blogPosts: [
+    {
+      id: 'blog-posts',
+      title: 'Selected writing',
+      items: [
+        {
+          id: 'beyond-rgb-in-image-classification',
+          name: 'Beyond RGB in Image Classification',
+          url: 'https://jideilori.medium.com/beyond-rgb-in-image-classification-293e14737509',
+          image: 'images/publications/beyond_rgb.webp',
+          description: 'A look at how different color spaces and normalization choices can affect image classification performance.'
+        },
+        {
+          id: 'deploying-opencv-web-application-on-heroku',
+          name: 'Deploying OpenCV Web Application on Heroku',
+          url: 'https://jideilori.medium.com/deploying-your-opencv-flask-web-application-on-heroku-c23efcceb1e8',
+          image: 'images/publications/deploy_opencv_heroku.webp',
+          description: 'A practical guide to deploying an OpenCV-powered web application and handling the packaging details.'
+        },
+        {
+          id: 'custom-ocr',
+          name: 'Custom OCR',
+          url: 'https://jideilori.medium.com/ocr-with-machine-learning-55c7d082fe78',
+          image: 'images/publications/ocr_ml.png',
+          description: 'A breakdown of how I built a custom OCR pipeline for license plate recognition with machine learning.'
+        }
+      ]
+    }
+  ],
   publications: [
     {
       id: 'publications',
