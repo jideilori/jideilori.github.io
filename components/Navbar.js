@@ -16,10 +16,10 @@ const Navbar = () => {
 		{text: 'Experience', href: 'experience', scrollable: true},
 		{text: 'Skills', href: 'skills', scrollable: true},
 		{text: 'Projects', href: 'projects', scrollable: true},
-		{text: 'Blog', href: 'blog-posts', scrollable: true},
 		// {text: 'Projects', href: 'portfolio', scrollable: true},
 
 		{text: 'Publications', href: 'publications', scrollable: true},
+		{text: 'Blog', href: 'blog-posts', scrollable: true},
 		{text: 'Certifications', href: 'certifications', scrollable: true},
 		{text: 'CV', href: '/cv/OLUWASEUN_ILORI_RESUME_26.pdf', scrollable: false},
 		// {text: 'Resume', href: 'resume', scrollable: true},

@@ -1,7 +1,7 @@
 const skillGroups = [
 	{
 		title: 'Programming and Data',
-		items: ['Python', 'PostgreSQL', 'MATLAB/Simulink', 'NumPy', 'Pandas', 'Statsmodels', 'Prophet', 'Web Scraping']
+		items: ['Python', 'PostgreSQL', 'MATLAB/Simulink', 'NumPy', 'Pandas', 'Statsmodels', 'Prophet', 'Parquet', 'Web Scraping', 'Scrapy']
 	},
 	{
 		title: 'Machine Learning and AI',
@@ -9,7 +9,7 @@ const skillGroups = [
 	},
 	{
 		title: 'MLOps and Cloud',
-		items: ['MLflow', 'Docker', 'FastAPI', 'Git', 'Google Cloud Platform', 'Azure ML Studio']
+		items: ['MLflow', 'Docker', 'FastAPI', 'Git', 'Google Cloud Platform', 'Google Cloud Storage', 'BigQuery', 'Airflow', 'dbt', 'Poetry', 'Azure ML Studio']
 	},
 	{
 		title: 'Analytics and Visualization',

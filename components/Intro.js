@@ -18,7 +18,7 @@ const Intro = () => {
 					Applied AI for research and real-world systems
 				</p>
 				<h2 className="text-3xl md:text-5xl font-bold leading-snug md:leading-tight max-w-4xl">
-					I build data, language, and computer vision systems that turn messy signals into reliable decisions.
+					Data Scientist and AI Engineer building practical systems for real-world problems.
 				</h2>
 				<p className="mt-6 max-w-4xl text-base md:text-xl text-blue-50 leading-8 md:leading-9">
 					I hold an MSc in Computer Science with an AI specialization and currently work as a Data Scientist at

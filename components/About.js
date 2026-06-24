@@ -1,20 +1,20 @@
 const About = () => {
 	const focusAreas = [
 		{
-			title: 'Research-led problem solving',
-			description: 'I translate recent machine learning and computer vision research into practical systems, with special interest in explainability and robust deployment.'
+			title: 'Data science and analytics',
+			description: 'My work includes labor market analysis, forecasting, compensation parsing, data cleaning, and turning raw data into reporting-ready outputs for decision making.'
 		},
 		{
-			title: 'Analytics with real business context',
-			description: 'My recent work includes labor market analysis, workforce forecasting, compensation parsing, data cleaning, and insight delivery for decision-making teams.'
+			title: 'Computer vision and NLP',
+			description: 'I work across computer vision and natural language processing, building systems for detection, OCR, image understanding, and language-driven data workflows.'
 		},
 		{
-			title: 'Production-minded AI delivery',
-			description: 'I have built and deployed APIs, OCR workflows, and vision models using tools such as FastAPI, Docker, Google Cloud Platform, PyTorch, and TensorFlow.'
+			title: 'Data and ML systems',
+			description: 'I build end-to-end systems that go from data collection and validation to modeling, storage, cloud workflows, APIs, and analytics dashboards.'
 		},
 		{
-			title: 'Teaching and mentorship',
-			description: 'Alongside hands-on engineering, I support learners through SQL practicals, machine learning instruction, Linux system administration, and C programming tutoring.'
+			title: 'Research and teaching',
+			description: 'Alongside hands-on engineering, I contribute through research, tutoring, SQL practicals, machine learning instruction, Linux system administration, and technical mentorship.'
 		}
 	];
 
@@ -25,11 +25,12 @@ const About = () => {
 					<div className="lg:col-span-2 surface-card-dark p-6 md:p-8 text-white">
 						<p className="section-kicker bg-blue-100 text-blue-700">About</p>
 						<h2 className="mt-5 text-3xl md:text-4xl font-bold leading-tight">
-							AI engineer with a strong blend of research depth and delivery focus.
+							Data scientist and AI engineer with a strong mix of research, analytics, and delivery experience.
 						</h2>
 						<p className="mt-5 text-blue-100 leading-8">
-							I work across computer vision, forecasting, machine learning, and data analytics, with a preference
-							for projects that require rigorous experimentation and real operational value.
+							I build systems and analysis workflows that connect data collection, modeling, experimentation, and
+							deployment. My interests span data science, computer vision, NLP, forecasting, and practical machine
+							learning for real-world problems.
 						</p>
 						<div className="mt-6 space-y-4 text-sm md:text-base text-blue-100">
 							<p>
@@ -37,7 +38,7 @@ const About = () => {
 								Babcock University. B.Eng Electrical and Electronics Engineering, University of Uyo.
 							</p>
 							<p>
-								<strong className="text-white">Research interests:</strong> Computer Vision, Edge AI, Machine Learning.
+								<strong className="text-white">Research interests:</strong> Computer Vision, Edge AI, Machine Learning, and Explainable AI.
 							</p>
 						</div>
 					</div>

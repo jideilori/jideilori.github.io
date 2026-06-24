@@ -43,8 +43,8 @@ const Home = () => {
           <Experience />
           <Skills />
           <Portfolio />
-          <BlogPosts />
           <Publications />
+          <BlogPosts />
           <Certifications />
           <span className="hidden border-gray-400 -bottom-full bottom-0"></span>
         </div>					

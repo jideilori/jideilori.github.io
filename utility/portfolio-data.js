@@ -79,8 +79,22 @@ const portfolioData = {
   },
   projects: [
     {
-      id: 'featured-projects',
-      title: 'Featured projects',
+      id: 'data-projects',
+      title: 'Data Science',
+      items: [
+        {
+          id: 'supermart-ng-price-tracker',
+          name: 'Supermart NG Price Tracker',
+          url: 'https://github.com/jideilori/supermart_ng_price_tracker',
+          image: 'images/projects/supermart_dashboard.png',
+          imageFit: 'contain',
+          description: 'Built a retail price tracking pipeline that scrapes Supermart product pages, cleans and validates product records, prepares analytics-ready datasets, and supports reporting with Google Cloud Storage, BigQuery, dbt, and Airflow.'
+        }
+      ]
+    },
+    {
+      id: 'computer-vision-projects',
+      title: 'Computer Vision and Applied Machine Learning',
       items: [
         {
           id: 'aerial-segmentation',
