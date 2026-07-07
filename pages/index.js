@@ -51,18 +51,7 @@ const Home = () => {
           {/* Right Column: Name, Bio, and Pathway Navigation */}
           <div className="flex-grow flex flex-col justify-center space-y-8 text-center lg:text-left w-full lg:max-w-3xl" data-aos="fade-left">
             <div>
-              <span 
-                className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-widest"
-                style={{
-                  backgroundColor: 'rgba(59, 130, 246, 0.1)',
-                  border: '1px solid rgba(59, 130, 246, 0.2)',
-                  color: '#60a5fa',
-                }}
-              >
-                Portfolio Portal
-              </span>
-              
-              <h1 className="mt-4 font-extrabold uppercase text-white text-4xl sm:text-5xl md:text-7xl tracking-wide leading-none">
+              <h1 className="mt-0 font-extrabold uppercase text-white text-4xl sm:text-5xl md:text-7xl tracking-wide leading-none">
                 Oluwaseun Ilori
               </h1>
               
