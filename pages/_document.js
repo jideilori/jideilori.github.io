@@ -16,10 +16,10 @@ export default class MyDocument extends Document {
 
 					<meta httpEquiv="content-type" content="text/html; charset=UTF-8" />
 					<meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-					<meta name="description" content="Oluwaseun Ilori Portfolio Website" />
-					<meta property="og:description" name="description" content="Oluwaseun Ilori Portfolio Website" />
+					<meta name="description" content="Oluwaseun Ilori — Data Scientist and Computer Vision Researcher. Portfolio showcasing data analytics, machine learning, and computer vision research." />
+					<meta property="og:description" name="description" content="Oluwaseun Ilori — Data Scientist and Computer Vision Researcher. Portfolio showcasing data analytics, machine learning, and computer vision research." />
 					<meta property="og:author" name="author" content="Oluwaseun Ilori" />
-					<meta property="og:keywords" name="keywords" content="Web development,HTML,HTML5,CSS,CSS3,Javascript,JQuery,PHP,UX/UI Design,Blogging,Graphics Design,Frontend,Backend,NodeJs,ReactJs,VueJs,MongoDB,Python,MySQL,PostgresSQL,Docker,Kubernetes,AWS,Git,Laravel" />
+					<meta property="og:keywords" name="keywords" content="Data Scientist,Computer Vision,Machine Learning,Deep Learning,PyTorch,TensorFlow,Python,Object Detection,Semantic Segmentation,OCR,Explainable AI,MLOps,Data Analytics,Forecasting,NLP,Research,BigQuery,Airflow" />
 					<meta property="og:image" name="image" content="/images/thumbnails/thumbnail.png" />
 
 					<link rel="shortcut icon" href="/images/favicon/favicon.png" />

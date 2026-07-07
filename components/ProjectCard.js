@@ -1,7 +1,19 @@
-const ProjectCard = ({ name, description, image, url, imageFit = 'cover' }) => {
+const ProjectCard = ({ name, description, image, url, imageFit = 'cover', track }) => {
   const imageClassName = imageFit === 'contain'
     ? 'h-full w-full object-contain p-4 bg-white'
     : 'h-full w-full object-cover transform transition duration-700 group-hover:scale-105';
+
+  const getTrackBadgeClass = (t) => {
+    if (t === 'data-science') return 'track-ds-badge';
+    if (t === 'computer-vision') return 'track-cv-badge';
+    return 'track-shared-badge';
+  };
+
+  const getTrackLabel = (t) => {
+    if (t === 'data-science') return 'Data Science';
+    if (t === 'computer-vision') return 'Computer Vision';
+    return 'Project';
+  };
 
   if (!image) {
     return (
@@ -10,8 +22,8 @@ const ProjectCard = ({ name, description, image, url, imageFit = 'cover' }) => {
         data-aos-duration="700"
         className="surface-card rounded-2xl h-72 p-6 md:p-7 flex flex-col border border-slate-200"
       >
-        <span className="inline-flex w-fit items-center rounded-full bg-blue-50 text-blue-700 px-3 py-1 text-xs font-bold uppercase tracking-wide">
-          Data Project
+        <span className={getTrackBadgeClass(track)}>
+          {getTrackLabel(track)}
         </span>
         <h3 className="mt-5 text-2xl text-slate-900 font-bold leading-8">
           {name}

@@ -127,6 +127,150 @@ footer {
     box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
 }
 
+/* ──────────────────────────────────────
+   Track Color System
+   ────────────────────────────────────── */
+
+/* Data Science track — blue */
+.track-ds {
+    border-left: 4px solid #2563eb;
+}
+
+.track-ds-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: #dbeafe;
+    color: #1d4ed8;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.track-ds-pill {
+    background: rgba(37, 99, 235, 0.12);
+    color: #2563eb;
+    border: 1px solid rgba(37, 99, 235, 0.25);
+}
+
+.track-ds-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2563eb;
+}
+
+/* Computer Vision track — teal */
+.track-cv {
+    border-left: 4px solid #0d9488;
+}
+
+.track-cv-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: #ccfbf1;
+    color: #0f766e;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.track-cv-pill {
+    background: rgba(13, 148, 136, 0.12);
+    color: #0d9488;
+    border: 1px solid rgba(13, 148, 136, 0.25);
+}
+
+.track-cv-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #0d9488;
+}
+
+/* Shared / cross-track — violet */
+.track-shared {
+    border-left: 4px solid #8b5cf6;
+}
+
+.track-shared-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: #ede9fe;
+    color: #6d28d9;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.track-shared-pill {
+    background: rgba(139, 92, 246, 0.12);
+    color: #7c3aed;
+    border: 1px solid rgba(139, 92, 246, 0.25);
+}
+
+/* Hero track group labels */
+.hero-track-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+/* Track card accent bars */
+.track-card-ds {
+    border-top: 4px solid #2563eb;
+}
+
+.track-card-cv {
+    border-top: 4px solid #0d9488;
+}
+
+.track-card-shared {
+    border-top: 4px solid #8b5cf6;
+}
+
+/* Track section headers */
+.track-section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 4px;
+}
+
+.track-section-bar-ds {
+    width: 40px;
+    height: 4px;
+    border-radius: 2px;
+    background: #2563eb;
+}
+
+.track-section-bar-cv {
+    width: 40px;
+    height: 4px;
+    border-radius: 2px;
+    background: #0d9488;
+}
+
+/* Connection statement */
+.connection-statement {
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.06) 0%, rgba(13, 148, 136, 0.06) 100%);
+    border: 1px solid rgba(37, 99, 235, 0.12);
+    border-radius: 16px;
+    padding: 20px 24px;
+}
+
 /* ScrollBar */
     ::-webkit-scrollbar {
         width: 4px;

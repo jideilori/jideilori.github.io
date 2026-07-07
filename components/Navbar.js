@@ -3,28 +3,13 @@ import NavbarLink from "./NavbarLink"
 import useIsScrollableElement from '../hoc/useIsScrollableElement'
 import useDirectionalScrollers from '../hoc/useDirectionalScrollers'
 
-const Navbar = () => {
+const Navbar = ({ links }) => {
 	const navbarRef = useRef(null)
 	const isScrollable = useIsScrollableElement(navbarRef)
 	const { scrollLeft, scrollRight } = useDirectionalScrollers({
 		targetRef: navbarRef,
 		step: 200
 	})
-
-	const navbarLinks = [
-		{text: 'About', href: 'about', scrollable: true},
-		{text: 'Experience', href: 'experience', scrollable: true},
-		{text: 'Skills', href: 'skills', scrollable: true},
-		{text: 'Projects', href: 'projects', scrollable: true},
-		// {text: 'Projects', href: 'portfolio', scrollable: true},
-
-		{text: 'Publications', href: 'publications', scrollable: true},
-		{text: 'Blog', href: 'blog-posts', scrollable: true},
-		{text: 'Certifications', href: 'certifications', scrollable: true},
-		{text: 'CV', href: '/cv/OLUWASEUN_ILORI_RESUME_26.pdf', scrollable: false},
-		// {text: 'Resume', href: 'resume', scrollable: true},
-
-	]
 
 	return (
 		<div className="sticky top-0 w-full py-3 bg-white bg-opacity-95 z-10 shadow">
@@ -41,7 +26,7 @@ const Navbar = () => {
 					}
 				>
 					<div className="flex flex-grow gap-4 md:gap-8 items-center mx-auto">
-						{navbarLinks.map((link) => <NavbarLink key={link.text} text={link.text} href={link.href} scrollable={link.scrollable} />)}
+						{links.map((link) => <NavbarLink key={link.text} text={link.text} href={link.href} scrollable={link.scrollable} />)}
 					</div>
 				</div>
 			</div>

@@ -1,17 +1,13 @@
 const TagLine = () => {
 	const profileMeta = [
-		'MSc Computer Science (AI)',
 		'Data Scientist at MyLane.AI',
-		'Computer Vision Engineer',
-		'Natural Language Processing'
+		'Computer Vision Researcher',
+		'MSc Computer Science (AI)'
 	];
 
 	return (
 		<div>
 			<div data-aos="zoom-in-left" className="flex flex-wrap gap-3 justify-center md:justify-start px-4 md:px-0">
-				{/* <a className="flex justify-center items-center w-8 h-8 text-white text-xl md:mr-4 bg-blue-500 rounded-full" href="Https://facebook.com/astongemmy">
-					<i className="fab fa-facebook-f"></i>
-				</a> */}
 				<a
 					className="flex justify-center items-center w-10 h-10 text-white text-xl bg-red-400 rounded-full"
 					href="mailto:jideilori77@gmail.com"
