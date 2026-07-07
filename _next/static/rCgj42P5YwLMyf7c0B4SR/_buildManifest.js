@@ -1,9 +1,15 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/2_nqj6s09mlhk.js"
+    "static/chunks/01oz8k3elbst6.js"
   ],
   "/_error": [
-    "static/chunks/0769v680a4xqo.js"
+    "static/chunks/2eb1pj54560ae.js"
+  ],
+  "/data-science": [
+    "static/chunks/2a9_bp7q2gbwv.js"
+  ],
+  "/research": [
+    "static/chunks/3alyja6l6xlu3.js"
   ],
   "__rewrites": {
     "afterFiles": [],
@@ -14,7 +20,7 @@ self.__BUILD_MANIFEST = {
     "/",
     "/_app",
     "/_error",
-    "/api/bookings",
-    "/api/reviews"
+    "/data-science",
+    "/research"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
