@@ -51,8 +51,11 @@ const Home = () => {
           {/* Right Column: Name, Bio, and Pathway Navigation */}
           <div className="flex-grow flex flex-col justify-center space-y-8 text-center lg:text-left w-full lg:max-w-3xl" data-aos="fade-left">
             <div>
-              <h1 className="mt-0 font-extrabold uppercase text-white text-4xl sm:text-5xl md:text-7xl tracking-wide leading-none">
+              <p className="mb-4 text-sm sm:text-base font-bold uppercase tracking-[0.24em] text-teal-300">
                 Oluwaseun Ilori
+              </p>
+              <h1 className="mt-0 font-extrabold uppercase text-white text-4xl sm:text-5xl md:text-7xl tracking-wide leading-none">
+                Edge AI &amp; Computer Vision Researcher
               </h1>
               
               <p className="mt-4 text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-400 via-indigo-300 to-teal-400 bg-clip-text text-transparent">

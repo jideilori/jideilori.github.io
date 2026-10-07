@@ -168,8 +168,8 @@ const ResearchPage = () => {
           variant="research"
           title="Computer Vision Researcher"
           subtitle="MSc Computer Science (AI) · Babcock University"
-          bio="My research focuses on computer vision and Edge AI for real-world applications. I work on object detection, semantic segmentation, OCR systems, and depth estimation — with published work spanning malaria diagnostics, explainability in medical AI, and embedded surveillance systems."
-          focusAreas={['Object Detection', 'Semantic Segmentation', 'OCR', 'Explainable AI', 'Edge AI']}
+          bio="My work exists at the intersection of physical hardware and artificial intelligence. I started my journey in Electrical Engineering with a deep fascination for wireless communications, then pivoted into software, specializing in Computer Vision and earning an MSc in Artificial Intelligence. My emerging research interest is Edge RF Sensing: bridging my love for wireless technologies with my computer vision expertise to investigate how chaotic radio waves, such as Wi-Fi, can act as a visual sensing modality."
+          focusAreas={['Object Detection', 'Semantic Segmentation', 'OCR', 'Explainable AI', 'Edge AI', 'Edge RF Sensing']}
           cvLink="/cv/OLUWASEUN_ILORI_RESUME_26.pdf"
         />
         <Navbar links={navLinks} />

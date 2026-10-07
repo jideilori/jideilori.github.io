@@ -37,13 +37,20 @@ const About = () => {
 					<div className="lg:col-span-2 surface-card-dark p-6 md:p-8 text-white">
 						<p className="section-kicker bg-blue-100 text-blue-700">About</p>
 						<h2 className="mt-5 text-3xl md:text-4xl font-bold leading-tight">
-							I work at the intersection of data science and computer vision research.
+							My work at the intersection of physical hardware and artificial intelligence.
 						</h2>
-						<p className="mt-5 text-blue-100 leading-8">
-							My data science work solves immediate business problems — analytics, forecasting,
-							pipeline engineering. My computer vision research tackles deeper questions — how
-							models see, what they miss, and how we explain their decisions.
-						</p>
+						<div className="mt-5 space-y-5 text-blue-100 leading-8">
+							<p>
+								I started my journey in Electrical Engineering with a deep fascination for wireless
+								communications. As my career progressed, I pivoted into software, specializing in
+								Computer Vision and earning an MSc in Artificial Intelligence.
+							</p>
+							<p>
+								My emerging research interest is <strong className="text-white">Edge RF Sensing</strong>:
+								bridging my love for wireless technologies with my expertise in computer vision to
+								investigate how chaotic radio waves, such as Wi-Fi, can act as a visual sensing modality.
+							</p>
+						</div>
 						<div className="mt-6 space-y-4 text-sm md:text-base text-blue-100">
 							<p>
 								<strong className="text-white">Education:</strong> MSc Computer Science (AI specialization),
@@ -51,7 +58,7 @@ const About = () => {
 							</p>
 							<p>
 								<strong className="text-white">Research interests:</strong> Computer Vision, Edge AI,
-								Explainable AI, and Medical Image Analysis.
+								Explainable AI, Medical Image Analysis, and Edge RF Sensing.
 							</p>
 						</div>
 					</div>

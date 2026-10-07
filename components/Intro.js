@@ -13,7 +13,8 @@ const Intro = () => {
 		'Semantic Segmentation',
 		'OCR Systems',
 		'Explainable AI',
-		'Edge AI'
+		'Edge AI',
+		'Edge RF Sensing'
 	];
 
 	return (
@@ -24,7 +25,7 @@ const Intro = () => {
 					Applied AI for industry and research
 				</p>
 				<h2 className="text-3xl md:text-5xl font-bold leading-snug md:leading-tight max-w-4xl">
-					Data Scientist. Computer Vision Researcher.
+					Edge AI &amp; Computer Vision Researcher
 				</h2>
 				<p className="mt-6 max-w-4xl text-base md:text-xl text-blue-50 leading-8 md:leading-9">
 					I build data systems for real-world impact and research vision models for trustworthy AI.
