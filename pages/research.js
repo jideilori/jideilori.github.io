@@ -168,8 +168,8 @@ const ResearchPage = () => {
           variant="research"
           title="Computer Vision Researcher"
           subtitle="MSc Computer Science (AI) · Babcock University"
-          bio="My work exists at the intersection of physical hardware and artificial intelligence. I started my journey in Electrical Engineering with a deep fascination for wireless communications, then pivoted into software, specializing in Computer Vision and earning an MSc in Artificial Intelligence. My emerging research interest is Edge RF Sensing: bridging my love for wireless technologies with my computer vision expertise to investigate how chaotic radio waves, such as Wi-Fi, can act as a visual sensing modality."
-          focusAreas={['Object Detection', 'Semantic Segmentation', 'OCR', 'Explainable AI', 'Edge AI', 'Edge RF Sensing']}
+          bio="My work exists at the intersection of physical hardware and artificial intelligence. I started my journey in Electrical Engineering with a deep fascination for wireless communications, then pivoted into software, specializing in Computer Vision and earning an MSc in Artificial Intelligence. I am currently actively exploring 3D Computer Vision and RF Sensing, especially how chaotic radio waves, such as Wi-Fi, can be modeled and interpreted as a visual sensing modality."
+          focusAreas={['Object Detection', 'Semantic Segmentation', 'OCR', 'Explainable AI', 'Edge AI', '3D Computer Vision', 'Edge RF Sensing']}
           cvLink="/cv/OLUWASEUN_ILORI_RESUME_26.pdf"
         />
         <Navbar links={navLinks} />

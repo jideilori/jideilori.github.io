@@ -58,7 +58,7 @@ const About = () => {
 							</p>
 							<p>
 								<strong className="text-white">Research interests:</strong> Computer Vision, Edge AI,
-								Explainable AI, Medical Image Analysis, and Edge RF Sensing.
+								Explainable AI, Medical Image Analysis, 3D Computer Vision, and Edge RF Sensing.
 							</p>
 						</div>
 					</div>

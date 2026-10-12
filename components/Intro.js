@@ -14,6 +14,7 @@ const Intro = () => {
 		'OCR Systems',
 		'Explainable AI',
 		'Edge AI',
+		'3D Computer Vision',
 		'Edge RF Sensing'
 	];
 
