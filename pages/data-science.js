@@ -34,7 +34,7 @@ const dsRoles = [
   {
     company: 'Babcock University',
     title: 'Teaching Assistant and E-Tutor',
-    period: 'Oct 2025 - Present',
+    period: 'Oct 2025 - Sep 2026',
     highlights: [
       'Teach machine learning, Linux system administration, C programming, and data management.',
       'Lead practical SQL sessions for Database Systems Design, Implementation and Management.'

@@ -26,7 +26,7 @@ const researchRoles = [
   {
     company: 'Babcock University',
     title: 'Teaching Assistant and E-Tutor',
-    period: 'Oct 2025 - Present',
+    period: 'Oct 2025 - Sep 2026',
     highlights: [
       'Teach machine learning, Linux system administration, C programming, and data management.',
       'Lead practical SQL sessions for Database Systems Design, Implementation and Management.'
@@ -168,8 +168,7 @@ const ResearchPage = () => {
           variant="research"
           title="Computer Vision Researcher"
           subtitle="MSc Computer Science (AI) · Babcock University"
-          bio="My work exists at the intersection of physical hardware and artificial intelligence. I started my journey in Electrical Engineering with a deep fascination for wireless communications, then pivoted into software, specializing in Computer Vision and earning an MSc in Artificial Intelligence. I am currently actively exploring 3D Computer Vision and RF Sensing, especially how chaotic radio waves, such as Wi-Fi, can be modeled and interpreted as a visual sensing modality."
-          focusAreas={['Object Detection', 'Semantic Segmentation', 'OCR', 'Explainable AI', 'Edge AI', '3D Computer Vision', 'Edge RF Sensing']}
+          focusAreas={['Object Detection', 'Semantic Segmentation', 'OCR', 'Explainable AI', 'Edge AI', '3D Computer Vision']}
           cvLink="/cv/OLUWASEUN_ILORI_RESUME_26.pdf"
         />
         <Navbar links={navLinks} />

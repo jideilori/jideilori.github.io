@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Jide Ilori — Portfolio
 
-## Getting Started
+Personal portfolio for Jide Ilori, an Edge AI and Computer Vision researcher and data scientist. The site brings together industry data science work and computer vision research, including projects, experience, skills, publications, and certifications.
 
-First, run the development server:
+## Portfolio
+
+- **Home** — overview and links to the two portfolio tracks.
+- **Data Science** — analytics, forecasting, data pipelines, and production machine learning.
+- **Computer Vision Research** — computer vision projects, publications, experience, and certifications.
+
+## Built with
+
+- [Next.js](https://nextjs.org/) with the Pages Router and static export
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Run locally
+
+Use Node.js and npm, then install dependencies and start the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Build
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Create the production build and static export:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm run build
+```
 
-## Learn More
+The static site is generated in the `out/` directory. Deploy that directory to a static hosting provider.
 
-To learn more about Next.js, take a look at the following resources:
+## Project structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+components/   Shared UI components
+pages/        Home, Data Science, and Research pages
+public/       Images, styles, CVs, and other static assets
+utility/      Portfolio and featured developer data
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Email: [jideilori77@gmail.com](mailto:jideilori77@gmail.com)
+- GitHub: [@jideilori](https://github.com/jideilori/)
+- LinkedIn: [Oluwaseun Ilori](https://www.linkedin.com/in/oluwaseun-Ilori/)

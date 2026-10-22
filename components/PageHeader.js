@@ -50,9 +50,11 @@ const PageHeader = ({ title, subtitle, bio, focusAreas, cvLink, variant = 'defau
 
 							{/* Bio */}
 							<div className="mt-6 max-w-4xl rounded-2xl bg-black bg-opacity-20 px-5 py-5 md:px-8 md:py-6">
-								<p className="text-base md:text-lg text-blue-50 leading-8">
-									{bio}
-								</p>
+								{bio && (
+									<p className="text-base md:text-lg text-blue-50 leading-8">
+										{bio}
+									</p>
+								)}
 
 								{focusAreas && focusAreas.length > 0 && (
 									<div className="mt-5 flex flex-wrap gap-2">
