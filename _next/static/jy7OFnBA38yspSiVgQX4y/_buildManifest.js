@@ -1,15 +1,15 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/419ecxbjs1w0b.js"
+    "static/chunks/2o_7qlu82-4b_.js"
   ],
   "/_error": [
     "static/chunks/2eb1pj54560ae.js"
   ],
   "/data-science": [
-    "static/chunks/2a9_bp7q2gbwv.js"
+    "static/chunks/1-n69wxtxuhco.js"
   ],
   "/research": [
-    "static/chunks/3mknf-psfxr2q.js"
+    "static/chunks/1qkqtty7bmu-3.js"
   ],
   "__rewrites": {
     "afterFiles": [],
